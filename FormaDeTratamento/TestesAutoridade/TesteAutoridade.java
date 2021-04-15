@@ -13,7 +13,7 @@ public class TesteAutoridade {
 	}
 
 	@Test
-	public void testAutoridaderRespeitoso() {
+	public void testAutoridadeRespeitoso() {
 		// Sra. ou Sr. sobrenome
 		Autoridade autoridade = new Autoridade("Maria", "Estrela", new Respeitoso('F'));
 
@@ -21,7 +21,7 @@ public class TesteAutoridade {
 	}
 
 	@Test
-	public void testAutoridaderComTitulo() {
+	public void testAutoridadeComTitulo() {
 		// titulo nome sobrenome
 		Autoridade autoridade = new Autoridade("Maria", "Estrela", new ComTitulo("Doutora"));
 
